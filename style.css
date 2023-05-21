@@ -1,0 +1,63 @@
+html {
+font-family: sans-serif;
+font-size: 16px;
+line-height: 1em;
+margin: 10px;
+padding: 0;
+}
+h1, h2 {
+    color: darkgrey;
+}
+header, main, footer {
+margin-top: none;
+margin-bottom: none;
+margin-left: auto;
+margin-right: auto;
+max-width: 700px;
+}
+.notes, h1 {
+    font-size: 2em;
+    text-align: center;
+}
+span {
+    font-size: 1.2em;
+    color: lightgray;
+    display: table;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+}
+.meeting, .next {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: .5em;
+
+}
+footer {
+    margin-top: 1;
+    margin-bottom: 1;
+    color: white;
+    background-color: gray;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+.landscape {
+    list-style: square;
+}
+.trees {
+    list-style: square;
+}
+.list {
+    list-style: circle;
+}
